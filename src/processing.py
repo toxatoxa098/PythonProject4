@@ -1,4 +1,6 @@
 def info_expenses():
+    """Функция принимает список расходов и записывает информацию о них (минимум, максимум, сумма)
+    в файле info.txt в формате min: 750 max: 1500 sum: 6700"""
 
     with open("../tests/expenses.txt", "r") as file:
         line = file.read().split()
